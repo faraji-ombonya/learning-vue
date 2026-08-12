@@ -5,6 +5,8 @@ const props = defineProps({
     msg: String
 })
 
+const emit = defineEmits(['response'])
+
 const todoId = ref(1)
 const todoData = ref(null)
 
@@ -20,6 +22,8 @@ async function fetchData() {
 fetchData()
 
 watch(todoId, fetchData)
+
+emit('response', 'hello from child')
 </script>
 
 

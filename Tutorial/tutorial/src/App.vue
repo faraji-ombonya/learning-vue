@@ -1,6 +1,7 @@
 <script setup>
 import AttributeBindings from '../components/AttributeBindings.vue';
 import ConditionalRendering from '../components/ConditionalRendering.vue';
+import Emits from '../components/Emits.vue';
 import EventListeners from '../components/EventListeners.vue';
 import FormBindings from '../components/FormBindings.vue';
 import LifecycleAndTemplateRefs from '../components/LifecycleAndTemplateRefs.vue';
@@ -18,6 +19,7 @@ import Watchers from '../components/Watchers.vue';
   <LifecycleAndTemplateRefs />
   <Watchers />
   <Props />
+  <Emits />
 </template>
 
 <style scoped></style>
