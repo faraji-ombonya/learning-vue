@@ -5,6 +5,7 @@ import EventListeners from '../components/EventListeners.vue';
 import FormBindings from '../components/FormBindings.vue';
 import LifecycleAndTemplateRefs from '../components/LifecycleAndTemplateRefs.vue';
 import ListRendering from '../components/ListRendering.vue';
+import Props from '../components/Props.vue';
 import Watchers from '../components/Watchers.vue';
 </script>
 
@@ -16,6 +17,7 @@ import Watchers from '../components/Watchers.vue';
   <ListRendering />
   <LifecycleAndTemplateRefs />
   <Watchers />
+  <Props />
 </template>
 
 <style scoped></style>

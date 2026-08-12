@@ -1,6 +1,10 @@
 <script setup>
 import { ref, watch } from 'vue';
 
+const props = defineProps({
+    msg: String
+})
+
 const todoId = ref(1)
 const todoData = ref(null)
 
@@ -21,6 +25,8 @@ watch(todoId, fetchData)
 
 <template>
     <p>Todo id: {{ todoId }}</p>
+
+    <p>Message: {{ msg }}</p>
 
     <button @click="todoId++" :disabled="!todoData">Fetch next todo</button>
 
