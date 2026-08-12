@@ -3,6 +3,7 @@ import AttributeBindings from '../components/AttributeBindings.vue';
 import ConditionalRendering from '../components/ConditionalRendering.vue';
 import EventListeners from '../components/EventListeners.vue';
 import FormBindings from '../components/FormBindings.vue';
+import LifecycleAndTemplateRefs from '../components/LifecycleAndTemplateRefs.vue';
 import ListRendering from '../components/ListRendering.vue';
 </script>
 
@@ -12,6 +13,7 @@ import ListRendering from '../components/ListRendering.vue';
   <FormBindings />
   <ConditionalRendering />
   <ListRendering />
+  <LifecycleAndTemplateRefs />
 </template>
 
 <style scoped></style>
